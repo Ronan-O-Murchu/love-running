@@ -58,8 +58,28 @@ menu {
 
 /*  Hero Image */
 
+#Hero-Outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #Hero-Image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
+    animation-name: hero-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/*  Hero Image Annomation */
+
+@keyframes hero-image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {transform: scale(1.1);
+
+    }
 }
