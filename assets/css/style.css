@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 15px;
 }
 
 /* navigation links */
@@ -58,7 +59,7 @@ menu {
 
 /*  Hero Image and Cover Text */
 
-#Hero-Outer {
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -66,11 +67,11 @@ menu {
     position: relative;
 }
 
-#Cover-Text, #Cover-Text h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
-#Hero-Image {
+#hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
@@ -90,7 +91,7 @@ menu {
     }
 }
 
-#Cover-Text {
+#cover-text {
     font-size: 130%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -101,6 +102,7 @@ menu {
 
     padding-top: 40px;
     padding-left: 10px;
+    padding-right: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
